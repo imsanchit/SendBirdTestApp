@@ -13,6 +13,8 @@
 		75576B3820A379BB0078296E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75576B3720A379BB0078296E /* Assets.xcassets */; };
 		75576B3B20A379BB0078296E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75576B3920A379BB0078296E /* LaunchScreen.storyboard */; };
 		75576B4620A379BB0078296E /* SendBirdTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75576B4520A379BB0078296E /* SendBirdTestAppTests.swift */; };
+		762CF47E16DA3CD348B0E114 /* Pods_SendBirdTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830205C45F0F1DC82F71462E /* Pods_SendBirdTestApp.framework */; };
+		9139A10F486FD68345C26E65 /* Pods_SendBirdTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C81B26C6F7B24A600F7F1B3 /* Pods_SendBirdTestAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B36D57F4E502EF0BB22E9F4 /* Pods-SendBirdTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendBirdTestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendBirdTestApp/Pods-SendBirdTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		2C81B26C6F7B24A600F7F1B3 /* Pods_SendBirdTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendBirdTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6970A938F1C8A08D380EA5A0 /* Pods-SendBirdTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendBirdTestAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SendBirdTestAppTests/Pods-SendBirdTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		75576B2D20A379A30078296E /* SendBirdTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendBirdTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75576B3020A379A30078296E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75576B3220A379A30078296E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		75576B4120A379BB0078296E /* SendBirdTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendBirdTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75576B4520A379BB0078296E /* SendBirdTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBirdTestAppTests.swift; sourceTree = "<group>"; };
 		75576B4720A379BC0078296E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830205C45F0F1DC82F71462E /* Pods_SendBirdTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendBirdTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8BE378541670B1CF4E48A8 /* Pods-SendBirdTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendBirdTestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SendBirdTestApp/Pods-SendBirdTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E0565DF3D083140564C9D027 /* Pods-SendBirdTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendBirdTestAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendBirdTestAppTests/Pods-SendBirdTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762CF47E16DA3CD348B0E114 /* Pods_SendBirdTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9139A10F486FD68345C26E65 /* Pods_SendBirdTestAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		424899B3FC6DEE2B77A7A9EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				830205C45F0F1DC82F71462E /* Pods_SendBirdTestApp.framework */,
+				2C81B26C6F7B24A600F7F1B3 /* Pods_SendBirdTestAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75576B2420A379A20078296E = {
 			isa = PBXGroup;
 			children = (
 				75576B2F20A379A30078296E /* SendBirdTestApp */,
 				75576B4420A379BB0078296E /* SendBirdTestAppTests */,
 				75576B2E20A379A30078296E /* Products */,
+				A354A47FED47878BBB311B03 /* Pods */,
+				424899B3FC6DEE2B77A7A9EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +98,9 @@
 		75576B2F20A379A30078296E /* SendBirdTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				75576B3020A379A30078296E /* AppDelegate.swift */,
+				75576B5020A379DA0078296E /* Supporting FIles */,
 				75576B3220A379A30078296E /* ViewController.swift */,
 				75576B3420A379A30078296E /* Main.storyboard */,
-				75576B3720A379BB0078296E /* Assets.xcassets */,
-				75576B3920A379BB0078296E /* LaunchScreen.storyboard */,
-				75576B3C20A379BB0078296E /* Info.plist */,
 			);
 			path = SendBirdTestApp;
 			sourceTree = "<group>";
@@ -96,6 +114,28 @@
 			path = SendBirdTestAppTests;
 			sourceTree = "<group>";
 		};
+		75576B5020A379DA0078296E /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				75576B3020A379A30078296E /* AppDelegate.swift */,
+				75576B3720A379BB0078296E /* Assets.xcassets */,
+				75576B3920A379BB0078296E /* LaunchScreen.storyboard */,
+				75576B3C20A379BB0078296E /* Info.plist */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		A354A47FED47878BBB311B03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D8BE378541670B1CF4E48A8 /* Pods-SendBirdTestApp.debug.xcconfig */,
+				0B36D57F4E502EF0BB22E9F4 /* Pods-SendBirdTestApp.release.xcconfig */,
+				6970A938F1C8A08D380EA5A0 /* Pods-SendBirdTestAppTests.debug.xcconfig */,
+				E0565DF3D083140564C9D027 /* Pods-SendBirdTestAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75576B4A20A379BC0078296E /* Build configuration list for PBXNativeTarget "SendBirdTestApp" */;
 			buildPhases = (
+				143B3348AF58EADEF5FCC240 /* [CP] Check Pods Manifest.lock */,
 				75576B2920A379A20078296E /* Sources */,
 				75576B2A20A379A20078296E /* Frameworks */,
 				75576B2B20A379A20078296E /* Resources */,
+				191CBBA38F09555BBD240F1A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75576B4D20A379BC0078296E /* Build configuration list for PBXNativeTarget "SendBirdTestAppTests" */;
 			buildPhases = (
+				65641747E324420B75A26D7B /* [CP] Check Pods Manifest.lock */,
 				75576B3D20A379BB0078296E /* Sources */,
 				75576B3E20A379BB0078296E /* Frameworks */,
 				75576B3F20A379BB0078296E /* Resources */,
@@ -191,6 +234,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		143B3348AF58EADEF5FCC240 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SendBirdTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		191CBBA38F09555BBD240F1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SendBirdTestApp/Pods-SendBirdTestApp-frameworks.sh",
+				"${PODS_ROOT}/SendBirdSDK/SendBirdSDK.framework",
+				"${PODS_ROOT}/SendBirdSDK/SendBirdSDK.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendBirdSDK.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/SendBirdSDK.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendBirdTestApp/Pods-SendBirdTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65641747E324420B75A26D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SendBirdTestAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75576B2920A379A20078296E /* Sources */ = {
@@ -356,11 +458,12 @@
 		};
 		75576B4B20A379BC0078296E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8BE378541670B1CF4E48A8 /* Pods-SendBirdTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4RL9J7R9MH;
-				INFOPLIST_FILE = SendBirdTestApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SendBirdTestApp/Supporting FIles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -374,11 +477,12 @@
 		};
 		75576B4C20A379BC0078296E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B36D57F4E502EF0BB22E9F4 /* Pods-SendBirdTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4RL9J7R9MH;
-				INFOPLIST_FILE = SendBirdTestApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SendBirdTestApp/Supporting FIles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,6 +496,7 @@
 		};
 		75576B4E20A379BC0078296E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6970A938F1C8A08D380EA5A0 /* Pods-SendBirdTestAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -413,6 +518,7 @@
 		};
 		75576B4F20A379BC0078296E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0565DF3D083140564C9D027 /* Pods-SendBirdTestAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
